@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Submission Form</title>
+<style>
+  body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+  }
+
+  .container {
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+  }
+
+  .input-group {
+	margin: 10px 0;
+  }
+
+  input[type="text"] {
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	width: 80%;
+	margin-bottom: 20px;
+  }
+
+  input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+
+  input[type="submit"]:hover {
+	background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Write a song!</h2>
+  <form action="/submit-song" method="post">
+	<div class="input-group">
+  	<input type="text" id="song" name="song" placeholder="Your song lyrics...">
+	</div>
+	<div class="input-group">
+  	<input type="submit" value="Submit">
+	</div>
+  </form>
+</div>
+
+</body>
+</html>
+
+

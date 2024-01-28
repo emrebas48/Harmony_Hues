@@ -1,0 +1,4 @@
+data is bigger than 100mb so I couldn't upload it here
+
+but the link is here:
+https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
